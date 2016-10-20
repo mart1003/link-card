@@ -9,17 +9,18 @@ html {
 }
 
 .link-card h2 {
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   margin: 0 0 1rem;
+  line-height: 1.5rem;
 }
 
 .link-card {
   display: inline-block;
   text-decoration: none;
   color: #512200;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   background-color: #dcd4cd;
   font-size: 1rem;
   border: 3px solid #9a816d;
@@ -30,8 +31,9 @@ html {
 dl {
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
-  padding: 1rem;
+  padding: 1rem 0;
   font-size: .875rem;
+  margin-bottom: 1rem;
 }
 
 dt {
@@ -47,19 +49,20 @@ dd {
 
 div {
   text-align: center;
-  padding: 1rem;
 }
 
 span {
+  display: inline-block;
   background-color: #785439;
   color: #fff;
-  padding: 1rem;
+  padding: .4em .75em .5em;
   border-radius: 8px;
-  font-family: sans-serif;
+  font-family: Dosis, sans-serif;
   font-weight: bold;
+  font-size: 1.125rem;
 }
 
-span:hover {
+.link-card:hover .btn {
   background-color: #512200;
 }
 
